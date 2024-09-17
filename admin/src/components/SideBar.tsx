@@ -30,7 +30,7 @@ const SideBar = ({ sidebarOpen, toggleSidebar }: { sidebarOpen: boolean, toggleS
           <FaTimes />
         </button>
       </div>
-      {/* <GoogleTranslate /> */}
+      <GoogleTranslate />
       <nav className="px-4 py-2 font-semibold">
         <Link to="/admin" className={linkClasses('/admin')}><RxDashboard size={23} className='mr-3'/>Dashboard</Link>
         <Link to="/admin/profile" className={linkClasses('/admin/profile')}><CgProfile size={23} className='mr-3'/>My Profile</Link>
