@@ -54,7 +54,7 @@ const GoogleTranslate = () => {
   }, []);
 
   return (
-    <div id="google_element" className={`google-translate-container ${isVisible ? '' : 'hidden'}`}></div>
+    <div id="google_element" className={`google-translate-container ${isVisible ? 'hidden' : 'hidden'}`}></div>
   );
 };
 
